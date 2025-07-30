@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: flightstatus
+    env: node
+    rootDir: flight-status-webhook
+    buildCommand: npm install
+    startCommand: npm start
